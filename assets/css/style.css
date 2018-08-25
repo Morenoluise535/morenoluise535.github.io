@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body
+        {
+        background-image: url('../images/dark-grey-terrazzo/dark-grey-terrazzo.png');
+        }
+
+
+
+header
+        {
+        margin: auto;
+        background: white;
+        border-bottom: #cccccc 20px;
+        height: 70px
+        }
+.headercon {
+        width: 960px;
+        margin: auto;
+}
+
+
+.headername
+        {
+        float: left;
+        background: #4aaaa5;
+        padding: 20px;
+        color: white;
+        font-size: 30px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        }
+
+.headerlinksbox
+        {
+        float: right;
+        padding: 20px;
+        }
+
+
+.headerlinks
+        {
+        padding: 5px;
+        color: gray;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 15px;
+        text-decoration-line: none;
+        border-left: gray;
+        }
+
+.sectionbackground
+        {
+        background-image: url('../images/dark-grey-terrazzo/dark-grey-terrazzo.png');
+        clear: both;
+        height: 40em;
+        border-top: 2px solid gray;
+        }
+
+
+.contentbox
+        {
+        clear: both;
+        width: 960px;
+        margin: auto;
+        background: white;
+        margin-top: 60px;
+        border: 2px solid #dddddd;
+        overflow: visible;
+        float: left;
+        margin-left: 240px;
+        margin-bottom: 60px;
+        }
+
+.picture
+        {
+        margin: 25px;
+        max-width: 200px;
+        max-height: 160px;
+        float: left;
+        margin-bottom: 0px;
+        }
+
+.picture2
+        {
+        margin: 10px;
+        max-width: 250px;
+        max-height: 250px;
+        position: relative;
+        }
+
+
+.picturewords1
+        {
+        color: white;
+        background: #4aaaa5;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 20px;
+        width: 150px;
+        text-align: center;
+        position: relative;
+        top: -80px;
+        left: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        }
+
+.firstcol
+        {
+        float: left;
+        margin-left: 150px;
+        margin-right: 40px;
+        }
+
+.secondcol
+        {
+        float: left;
+        margin-left: 40px;
+        }
+
+
+.h1in
+        {
+        padding: 20px;
+        color: #4aaaa5;
+        font-size: 30px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        border-bottom: 2px solid #dddddd;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 30px;
+        }
+
+
+.p1       
+        {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 15px;
+        margin: 50px;
+        color: #777777;
+        line-height: 1.5;
+        }
+
+
+footer
+        {
+        text-align: center;
+        padding-top: 30px;
+        background: #666666;
+        color: #cccccc;
+        font-size: 11px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        border-top: 4px solid #4aaaa5;
+        clear: both;
+        }
+
+        input[type=text], select {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1.5px solid #dddddd;
+                border-radius: 4px;
+                box-sizing: border-box;
+              
+            }
+            
+            input[type=submit] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                cursor: pointer;
+                
+            }
+            
+            input[type=submit]:hover {
+                background-color: #45a049;
+            }
+            
+            .contactform 
+                {
+                border-radius: 5px;
+                padding: 20px;
+                font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+                }
+
+
