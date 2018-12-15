@@ -1,49 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="main.js"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Bootstrap Basic Portfolio</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css" media="screen">
+
 </head>
+
 <body>
-        <header>
-                
-            <div class="headercon">
-                <h1 class="headername">Luis Enrique Moreno Zepeda</h1> 
-                <div class="headerlinksbox"> 
-                    <a class="headerlinks" href="index.html">About</a>
-                    <a class="headerlinks" href="prtfolio.html">Portfolio</a>
-                    <a class="headerlinks" href="contact.html">Contact</a>
-                </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" id="logo">Luis Enrique Moreno Enrique</a>
+      </div>
+      <button class="navbar-toggler collapsed ml-auto" data-toggle="collapse" data-target="#page-nav-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="page-nav-collapse">
+        <ul class="nav navbar-nav ml-auto">
+          <li>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <form class="block form-horizontal">
+          <h1 class="block-header">Contact</h1>
+          <hr />
+          <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="name" placeholder="Name">
             </div>
-            </header class="header">
-
-            <div class="sectionbackground">
-                <div class="contentbox">
-                    <h1 class="h1in">Contact</h1>
-
-                    <div class="contactform">
-                            <form action="/action_page.php">
-                              <label for="fname">First Name</label>
-                              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                          
-                              <label for="email">Email</label>
-                              <input type="text" id="email" name="lastname" placeholder="Example@gmail.com">
-                          
-                              <label for="message">Message</label>
-                              <input type="text" id="message" name="message"> 
-                              
-                            
-                              <input type="submit" value="Submit">
-                            </form>
-                          </div>
-
-                </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="email" placeholder="Email">
             </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="msg">Message</label>
+            <div class="col-sm-10">
+              <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
+            </div>
+          </div>
+          <button class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
-        <footer class="footer">Copyright©</footer>
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright
+    </p>
+  </footer>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
+
 </body>
+
 </html>
