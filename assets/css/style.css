@@ -4,7 +4,17 @@ body{
 }
 
 .carousel-caption {
-  margin-bottom: 14em
+ border: 1em;
+ background: gray; opacity: 0.5;
+margin-bottom: 17em;
+border-radius: 25px;
+border: 2px solid #73AD21;
+padding: 20px; 
+}
+
+.carousel-caption:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
 }
 
 .text-white {
@@ -31,15 +41,28 @@ body{
 
 }
 
+.conforweb{
+  background: gray; opacity: 0.5;
+ border-radius: 25px;
+ border: 2px solid #73AD21;
+ padding: 20px; 
+  margin-top: 6em;
+}
+.conforweb:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
 .headwebD{
   color: white;
   font-size: 2.5em;
   margin-top: 1em;
+  opacity: 1.0;
 }
 
 .pwebD{
   color: white;
   font-size: 1.5em;
+  opacity: 1.0;
 }
 
 .thumbnail{
